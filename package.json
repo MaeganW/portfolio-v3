@@ -1,5 +1,5 @@
 {
-  "name": "react-sass-setup",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,7 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
-    "sass" : "sass --watch src/styles/scss:src/styles/css",
+    "sass": "sass --watch src/styles/scss:src/styles/css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
