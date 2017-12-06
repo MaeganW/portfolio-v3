@@ -1,34 +1,24 @@
-body {
+:root {
+  --font-primary: 'Nunito Sans',
+
+  --color-primary: #34374C,
+  --color-secondary: #2C2E3E,
+  --color-tertiary: #EE2B47,
+  --color-quaternary: #F6F6F6,
+}
+
+* {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
 
-.App {
-  text-align: center;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: purple;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1 rem = 10px, 10px/16px = 62.5%
 }
